@@ -27,3 +27,16 @@ accessBtn.addEventListener('click', function() {
     }
 }
 );
+
+// ESERCIZIO DADI
+const user = document.querySelector(".user");
+const compuer = document.querySelector(".compuetr");
+const tiraBtn = document.querySelector(".btn1");
+
+tiraBtn.addEventListener('click', function(){
+console.log('click')
+});
+// generare nuemri da 1 a 6
+// far tirare dadi a user
+// far tirare dadi a compuet
+// confronto e vincitore
