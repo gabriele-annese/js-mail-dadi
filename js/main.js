@@ -42,11 +42,13 @@ console.log('click');
    console.log(numberRandom);
    user.innerHTML = numberRandom;
    computer.innerHTML = numberRandom2;
+   if(numberRandom < numberRandom2) {
+       console.log("hai perso");
+   } else if (numberRandom > numberRandom2 ) {
+    console.log("hai vinto");
+   } else {
+    console.log("SIETE PARI");
+   }
 });
 
-
-
-
-// far tirare dadi a user
-// far tirare dadi a compuet
 // confronto e vincitore
