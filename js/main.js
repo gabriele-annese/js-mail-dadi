@@ -32,6 +32,7 @@ accessBtn.addEventListener('click', function() {
 const user = document.querySelector(".user");
 const computer = document.querySelector(".computer");
 const tiraBtn= document.querySelector(".btn1");
+const risultato = document.querySelector(".risulato-dadi");
 
 
 tiraBtn.addEventListener('click', function(){
@@ -43,11 +44,11 @@ console.log('click');
    user.innerHTML = numberRandom;
    computer.innerHTML = numberRandom2;
    if(numberRandom < numberRandom2) {
-       console.log("hai perso");
+    risultato.innerHTML += `<h1 class="fs-1 text-center ">Hai perso</h1>`;
    } else if (numberRandom > numberRandom2 ) {
-    console.log("hai vinto");
+    risultato.innerHTML += `<h1 class="fs-1 text-center ">Hai vinto</h1>`;
    } else {
-    console.log("SIETE PARI");
+    risultato.innerHTML += `<h1 class="fs-1 text-center ">Siete pari</h1>`;
    }
 });
 
