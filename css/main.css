@@ -16,3 +16,11 @@ main  input {
     border-radius: 20px;
     padding: 0.55rem;
 }
+
+.consenti{
+    color: green;
+}
+
+.negato {
+    color: red;
+}

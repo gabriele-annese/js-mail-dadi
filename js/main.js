@@ -18,5 +18,12 @@ accessBtn.addEventListener('click', function() {
         }
     }
     console.log(emailFoun);
+
+    // output
+    if (emailFoun == true){
+        accesso.innerHTML += `<h3 class="consenti">accesso eseguito con email: ${userEmail} </h3>`;
+    } else if( emailFoun == false){
+        accesso.innerHTML += `<h3 class="negato">accesso negato con email: ${userEmail}</h3>`;
+    }
 }
 );
