@@ -44,11 +44,11 @@ console.log('click');
    user.innerHTML = numberRandom;
    computer.innerHTML = numberRandom2;
    if(numberRandom < numberRandom2) {
-    risultato.innerHTML += `<h1 class=" text-center lose">Hai perso</h1>`;
+    risultato.innerHTML += `<h1 class=" text-center lose">Ha vinto computer!!</h1>`;
    } else if (numberRandom > numberRandom2 ) {
-    risultato.innerHTML += `<h1 class="text-center win">Hai vinto</h1>`;
+    risultato.innerHTML += `<h1 class="text-center win">Ha vinto user!!</h1>`;
    } else {
-    risultato.innerHTML += `<h1 class="text-center pari">Siete pari</h1>`;
+    risultato.innerHTML += `<h1 class="text-center pari">Siete pari!!</h1>`;
    }
 });
 
