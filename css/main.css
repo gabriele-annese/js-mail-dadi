@@ -45,3 +45,15 @@ main  input {
     font-size: 50px;
     color: red;
 }
+
+.win{
+    color: green;
+}
+
+.lose{
+    color: red;
+}
+
+.pari{
+    color: purple;
+}
