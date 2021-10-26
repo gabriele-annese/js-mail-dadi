@@ -38,9 +38,10 @@ tiraBtn.addEventListener('click', function(){
 console.log('click');
 // generare nuemri da 1 a 6
    const numberRandom = Math.round(Math.random() * 5) +1;
+   const numberRandom2 =Math.round(Math.random() * 5) +1;
    console.log(numberRandom);
    user.innerHTML = numberRandom;
-   computer.innerHTML = numberRandom;
+   computer.innerHTML = numberRandom2;
 });
 
 
